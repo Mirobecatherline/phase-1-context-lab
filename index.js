@@ -50,7 +50,7 @@ let hoursWorkedOnDate=function(date2) {
         return event.date === date2
     })
 
-    return (eventout.hour - eventin.hour) / 100
+    return (eventout.hour - eventin.hour) / 54
 }
 function wagesEarnedOnDate(date3) {
         let wage = hoursWorkedOnDate(this,date3)
